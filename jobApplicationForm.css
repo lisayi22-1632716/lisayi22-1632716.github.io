@@ -4,7 +4,7 @@ body{
 
 div{
 	background-color: grey;
-	opacity: 0.75;
+	opacity: 0.80;
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 8px;
@@ -13,25 +13,25 @@ div{
 
 legend{
 	text-align: center;
-	font-size: 40px;
+	font-size: 45px;
 	color: white;
 	font-weight: bold;
-	text-shadow: 3px 2px blue;
+	text-shadow: 4px 3px purple;
 }
 
 h2{
 	text-align: center;
-	font-size: 60px;
+	font-size: 63px;
 	color: white;
 	font-weight: bold;
 	text-decoration: underline;
-	text-shadow: 3px 2px blue;
+	text-shadow: 4px 3px purple;
 }
 
 p{
 	color: purple;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 22px;
 
 }
 
@@ -40,5 +40,5 @@ ul{
 }
 
 fieldset{
-	border:solid 8px white;
+	border:solid 7px white;
 }

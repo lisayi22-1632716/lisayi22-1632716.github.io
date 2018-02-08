@@ -28,7 +28,7 @@
 		<div class="field">
 				<label>What type of food do you specialize in?</label> <br>
 				<input type="text" name="type">
-				<p>Please note: Would prefer a specialty in Italian or Korean Food</p>
+				<p>Note: Would prefer a specialty in Italian or Korean Food</p>
 	</fieldset>
 
 	<fieldset>
@@ -118,14 +118,6 @@
 				<input type="radio" name="experience" value="yes"> Yes<br>
 				<input type="radio" name="experience" value="no">No <br>
 			</div>
-			<div class="field">
-				<label>What kind of meats have you cooked with? Please select all that apply.</label><br>
-				<input type="checkbox" name="worked" value="beef">Beef<br>
-                <input type="checkbox" name="worked" value="chicken">Chicken<br>
-                <input type="checkbox" name="worked" value="pork">Pork<br>
-                <input type="checkbox" name="worked" value="other">Other<br>
-                <input type="checkbox" name="worked" value="none">None<br>
-            </div>
             <div class="field">
 				<label>What is your favorite dessert to make?</label><br>
 				<select name="dessert">
@@ -137,6 +129,14 @@
 					<option value="other">Other</option>
 				</select><br>
 			</div>
+			<div class="field">
+					<label>What kind of meats have you cooked with? Please select all that apply.</label><br>
+					<input type="checkbox" name="worked" value="beef">Beef<br>
+					<input type="checkbox" name="worked" value="chicken">Chicken<br>
+					<input type="checkbox" name="worked" value="pork">Pork<br>
+					<input type="checkbox" name="worked" value="other">Other<br>
+					<input type="checkbox" name="worked" value="none">None<br>
+				</div>
 			<div class="field">
 				<label>Years of cooking experience:</label><br>
 				<input type="number" name="rate" min="1" max="15"><br>
@@ -210,10 +210,9 @@
 		</div>
 	</fieldset>
    
-    <input type="submit" value="Submit form">
-    <input type="reset" name="reset">
-    <input type="button" name="worthy" onclick="alert('You are worthy of this position')" value="Click to see if you are worthy to be chef restaurant">
-
+    <input type="button" name="deserve" onclick="alert('You deserve this position')" value="Click to see if you deserve this position">
+	<input type="reset" name="reset">
+	<input type="submit" value="Submit Form">
 </form>
 </body>
 </html>
